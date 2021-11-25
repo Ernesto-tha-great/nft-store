@@ -7,7 +7,7 @@ import myEpicNFTAbi from '../src/utils/MyEpicNFT.json'
 const TWITTER_HANDLE = 'ernestelijah';
 const TWITTER_LINK = `https://twitter.com/ernestelijah`;
 const OPENSEA_LINK = 'https://testnets.opensea.io/collection/squarenft-r84yxrxyl5';
-const TOTAL_MINT_COUNT = 50;
+
 
 const App = () => {
   const [currentAccount, setCurrentAccount] = useState("");
@@ -146,7 +146,7 @@ const App = () => {
 
   useEffect(() => {
     checkIfWalletIsConnected();
-  }, [])
+  },)
 
   return (
     <div className="App">
